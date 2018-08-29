@@ -1,0 +1,210 @@
+body {
+  font-size: 16px;
+}
+
+.navbar {
+  height: 8rem;
+  margin: 0;
+}
+
+.navbar .container-fluid {
+  padding: 15px;
+}
+
+.navbar .container-fluid ul {
+  margin: 0;
+}
+
+.navbar-brand {
+  font-family: 'Libre Barcode 128 Text', cursive;
+  font-size: 4rem;
+}
+
+@media only screen and (min-width: 481px) {
+  #navbar-brand-2 {
+    display: none;
+  }
+
+  #navbar-brand-3 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 480px) and (min-width: 247px) {
+  #navbar-brand-1 {
+    display: none;
+  }
+
+  #navbar-brand-3 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 246px) {
+  #navbar-brand-1 {
+    display: none;
+  }
+
+  #navbar-brand-2 {
+    display: none;
+  }
+}
+
+.nav.navbar-nav li a {
+  font-family: 'IM Fell French Canon SC', serif;
+}
+
+@media only screen and (max-width: 828px) {
+  .nav.navbar-nav {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 829px) {
+  .dropdown {
+    display: none;
+  }
+}
+
+h1 {
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+  font-size: 8rem;
+  text-align: center;
+  margin-top: 8rem;
+}
+
+/*Jumbotron===================================================================*/
+
+.jumbotron {
+  height: 39rem;
+  font-family: 'Rock Salt', cursive;
+  background-image: url("file:///C:/Users/Chun/Documents/coding_projects/Unit%209/portfolio/resources/media/santiago_night.JPG");
+  background-position: center;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 480px) {
+  .jumbotron {
+    background-position: center;
+    background-size: auto;
+  }
+}
+
+.jumbotron h1 {
+  margin-top: 24rem;
+  color: white;
+  font-family: 'Rock Salt', cursive;
+  text-align: left;
+  font-size: 4rem;
+}
+
+.gi-2x{font-size: 2em;}
+.gi-3x{font-size: 3em;}
+.gi-4x{font-size: 4em;}
+.gi-5x{font-size: 5em;}
+
+.glyphicon {
+  color: black;
+  transition: font-size 1s;
+  transition-timing-function: ease-in-out;
+
+}
+
+.glyphicon:hover {
+  color: white;
+  font-size: 5rem;
+
+}
+
+.glyphicon:active {
+  color: #7df9ff;
+}
+
+@media only screen and (max-width: 469px) {
+  .jumbotron h1 {
+    font-size: 3rem;
+  }
+}
+
+.dropdown-menu {
+  font-family: 'IM Fell French Canon SC', serif;
+  font-size: 2rem;
+}
+
+
+
+/*About-Me====================================================================*/
+
+#about-me  {
+  padding-right: ;
+}
+
+.row .col-lg-12 .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: %;
+}
+
+.row .col-lg-12 p {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  margin-top: 3rem;
+}
+
+/*Carousel=================================================================================*/
+
+img {
+  margin: 0 auto;
+}
+
+#myCarousel .carousel-inner {
+}
+
+.photos {
+  background-color: rgb(245,245,245);
+  padding-bottom: 2rem;
+}
+
+
+/*Portfolio================================================================================*/
+#portfolio {
+  background-color: rgb(220,220,220);
+  margin-top:;
+}
+
+#portfolio .container-fluid {
+}
+
+#portfolio .container-fluid .row {
+  width: ;
+  margin: 0 auto;
+}
+
+#portfolio .row .col-md-4 img {
+  width: 30rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#portfolio h2 {
+  text-align: center;
+  font-family: 'IM Fell French Canon SC', serif;
+}
+
+@media only screen and (max-width: 350px) {
+  #portfolio .row .col-sm-12 img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/*Footer======================================================================================*/
+
+footer {
+  background: black;
+}
